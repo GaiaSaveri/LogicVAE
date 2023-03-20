@@ -1,2 +1,6 @@
-# LogicVAE
-Code for paper 'Towards Invertible Semantic-Preserving Embeddings of Logical Formulae' , Gaia Saveri, Luca Bortolussi, 2023 
+# Towards Invertible Semantic-Preserving Embeddings of Logical Formulae
+---
+Gaia Saveri, Luca Bortolussi, 2023 
+
+**Abstract**
+Logic is the main formal language to perform automated reasoning, and it is further a human-interpretable language, at least for small formulae. Learning and optimising logic requirements and rules has always been an important problem in Artificial Intelligence. State of the art Machine Learning (ML) approaches are mostly based on  gradient descent optimisation in continuous spaces, while learning logic is framed in the discrete syntactic space of formulae. Using continuous optimisation to learn logic properties is a challenging problem, requiring to embed formulae in a continuous space in a meaningful way, i.e.  preserving the semantics. State-of-the-art are able to construct effective semantic-preserving embeddings via kernel methods (for linear temporal logic), but the map they define is not invertible. In this work we address this problem, learning how to invert such an embedding leveraging deep architectures based on the Graph Variational Autoencoder framework. We propose a novel model specifically designed for this setting, justifying our design choices through an extensive experimental evaluation. Reported results in the context of propositional logic are promising, and several challenges regarding learning invertible embeddings of formulae are highlighted and addressed.
